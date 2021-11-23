@@ -1,0 +1,23 @@
+{
+  "plugins": ["transform-remove-strict-mode"],
+    // "plugins": [
+    //     [
+    //      "transform-runtime",
+    //      {
+    //        "polyfill": false
+    //      }
+    //     ]
+    //   ],
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false
+          }
+        ],
+        "stage-2",
+        "react"
+     ]
+}
+   
+   

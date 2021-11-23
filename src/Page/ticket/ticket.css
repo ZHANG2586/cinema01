@@ -1,0 +1,4 @@
+/*当鼠标移到按钮上时按钮的背景色改变*/
+.sss:hover{
+    background-color:chocolate;
+}
